@@ -1,6 +1,6 @@
 .containerIntrodução {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   padding: 50px;
   justify-content: center;
 }
@@ -64,3 +64,34 @@
   font-weight: bold;
 }
 
+.containerServicos {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerEsq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  gap: 60px;
+}
+
+.tituloServico{
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 5px;
+}
+
+@media (min-width: 1630px) {
+  .containerIntrodução {
+    gap: 130px;
+    justify-content: space-evenly;
+  }
+}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Nav } from "@/components/Nav/nav";
+import { Card } from "@/components/Card/card";
 
 export default function Home() {
   return (
@@ -36,6 +37,27 @@ export default function Home() {
             <p><span className={styles.destaqueNumero}>2</span> <span className={styles.destaqueTexto}>Cursos de Especialização</span><br />Em UI/UX Design</p>
           </div>
 
+        </section>
+
+        <section className={styles.containerServicos}>
+          <div className={styles.containerEsq}>
+            <h2 className={styles.tituloServico}>Meus Serviços</h2>
+            <div className={styles.containerCard}>
+              <Card 
+                linkImage="/secobImagemPequena.svg"
+                title="WebSite Design" 
+                description="Se você necessita dar uma nova cara para sua empresa ou até mesmo está iniciando seu negócio e quer um website que seja do seu"
+                destaque="‘’jeitinho’’?"
+              />
+
+              <Card 
+                linkImage="/pizzariaXImagemPequena.svg"
+                title="App Mobile Design" 
+                description="Tem uma ideia em mente, uma solução inovadora ou até mesmo quer gerenciar processos da sua empresa de forma mais"
+                destaque="dinâmica?"
+              />
+            </div>
+          </div>
         </section>
       </main>
     </div>

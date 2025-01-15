@@ -1,0 +1,66 @@
+.containerIntrodução {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.bio {
+  width: 300px;
+}
+
+.bio span {
+  border: 1px solid #0076FF;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bio h2  {
+  color: #FFFFFF;
+  font-size: 35px;
+}
+
+.bio h3 {
+  color: #FFFFFFB2;
+  font-size: 25px;
+}
+
+.bio p {
+  color: #FFFFFFB2;
+  display: flex;
+  text-align: start;
+}
+
+.containerLogoIntrodução {
+  margin-top: 40px;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+}
+
+.destaqueNumero {
+  color: #0076FF;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.destaqueTexto {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #0076FF;
+}
+
+.info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.info p {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+}
+

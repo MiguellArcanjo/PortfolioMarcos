@@ -1,9 +1,40 @@
+"use client"
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Nav } from "@/components/Nav/nav";
 import { Card } from "@/components/Card/card";
+import AliceCarousel, { EventObject } from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import { useState } from "react";
 
 export default function Home() {
+
+  const items = [
+    <div className={styles.item} data-value="1">
+      <Image src="/ImgHome1.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.teste3}>teasasasasste</div>
+    </div>,
+    <div className="item" data-value="2">
+      <Image src="/imgHome2.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.teste3}>teasasasasste</div>
+    </div>,
+    <div className="item" data-value="3">
+      <Image src="/imgHome3.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+    </div>,
+    <div className="item" data-value="3">
+      <Image src="/imgHome4.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+    </div>,
+    <div className="item" data-value="3">
+      <Image src="/imgHome5.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+    </div>,
+  ];
+
   return (
     <div className={styles.page}>
       <header>
@@ -58,6 +89,22 @@ export default function Home() {
               />
             </div>
           </div>
+
+          <div className={styles.containerDir}>
+              <AliceCarousel
+                items={items}
+                infinite
+                disableButtonsControls
+                disableDotsControls
+                mouseTracking
+                touchTracking
+              />
+            <div className={styles.carouselLine}>
+              <div className={styles.teste33}>|</div>
+              Meus Projetos
+            </div>
+          </div>
+
         </section>
       </main>
     </div>

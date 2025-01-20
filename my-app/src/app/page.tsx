@@ -4,40 +4,52 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { Nav } from "@/components/Nav/nav";
 import { Card } from "@/components/Card/card";
-import AliceCarousel, { EventObject } from 'react-alice-carousel';
+import { Footer } from "@/components/Footer/footer";
+import AliceCarousel from 'react-alice-carousel';
+
+
 import 'react-alice-carousel/lib/alice-carousel.css';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import { useState } from "react";
 
 export default function Home() {
 
   const items = [
     <div className={styles.item} data-value="1">
       <Image src="/ImgHome1.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.teste3}>teasasasasste</div>
+      <div className={styles.carouselLine}>
+      </div>
+      <div className={styles.bar}>|</div>
+      <p className={styles.myProjects}>Meus Projetos</p>
     </div>,
     <div className="item" data-value="2">
       <Image src="/imgHome2.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.teste3}>teasasasasste</div>
+      <div className={styles.carouselLine}></div>
     </div>,
     <div className="item" data-value="3">
       <Image src="/imgHome3.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.carouselLine}></div>
     </div>,
-    <div className="item" data-value="3">
+    <div className="item" data-value="4">
       <Image src="/imgHome4.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.carouselLine}></div>
     </div>,
-    <div className="item" data-value="3">
+    <div className="item" data-value="5">
       <Image src="/imgHome5.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.carouselLine}></div>
+    </div>,
+    <div className="item" data-value="6">
+      <Image src="/imgHome6.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.carouselLine}></div>
+    </div>,
+    <div className="item" data-value="7">
+      <Image src="/imgHome7.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
+      <div className={styles.carouselLineLast}></div>
     </div>,
   ];
 
   return (
     <div className={styles.page}>
-      <header>
+      <header id="top">
         <Nav />
       </header>
 
@@ -99,14 +111,14 @@ export default function Home() {
                 mouseTracking
                 touchTracking
               />
-            <div className={styles.carouselLine}>
-              <div className={styles.teste33}>|</div>
-              Meus Projetos
-            </div>
           </div>
 
         </section>
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -4,5 +4,6 @@
   margin: 0;
   background-color: #001329;
   font-family: var(--font-inter);
+  scroll-behavior: smooth;
 }
 

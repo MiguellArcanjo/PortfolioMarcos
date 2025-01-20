@@ -100,18 +100,6 @@
   left: 60px;
 }
 
-.carouselLine {
-  position: absolute;
-  bottom: 120px; 
-  left: 0;
-  height: 2px; 
-  background-color: #fff; 
-  width: 100%;
-  transition: width 0.3s ease;
-  color: #fff;
-  font-weight: bold;
-  font-size: 30px;
-}
 
 .teste33 {
   position: relative;
@@ -123,16 +111,57 @@
   background-color: #fff;
 }
 
-.teste3 {
+.carouselLine {
+  position: relative;
+  bottom: 100px;
+  /* margin-left: 20px; */
+  /* left: 0px; */
   color: #fff;
   background-color: #fff;
-
+  width: 800px; 
+  height: 3px; 
 }
 
+.carouselLineLast {
+  position: relative;
+  bottom: 100px;
+  margin-right: 20px;
+  /* left: 0px; */
+  color: #fff;
+  background-color: #fff;
+  width: 580px; 
+  height: 3px; 
+}
+
+.bar {
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  width: 2px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #fff;
+}
+
+.myProjects {
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  bottom: 100px;
+}
 
 @media (min-width: 1630px) {
   .containerIntrodução {
     gap: 130px;
     justify-content: space-evenly;
+  }
+
+  .containerServicos {
+    justify-content: center;
+  }
+
+  .containerDir {
+    width: 37%;
   }
 }

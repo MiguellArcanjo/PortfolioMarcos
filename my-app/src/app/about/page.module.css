@@ -1,0 +1,28 @@
+.containerAbout {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.containerAbout p{
+    color: #FFFFFFB2;
+    text-align: start;
+    font-size: 15px;
+}
+
+.title{
+    color: #FFFFFFB2;
+    font-size: 22px;
+}
+
+.name {
+    color: #FFF;
+    font-size: 27px;
+}
+
+.containerLogoIntrodução {
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    margin-top: 30px;
+}

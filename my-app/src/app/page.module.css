@@ -120,6 +120,12 @@
   background-color: #fff;
   width: 800px; 
   height: 3px; 
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.carouselLine a {
+  width: 100%;
 }
 
 .carouselLineLast {
@@ -131,6 +137,8 @@
   background-color: #fff;
   width: 580px; 
   height: 3px; 
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .bar {
@@ -141,6 +149,9 @@
   font-size: 15px;
   color: #fff;
   background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration: none;
 }
 
 .myProjects {
@@ -149,6 +160,8 @@
   font-weight: bold;
   font-size: 30px;
   bottom: 100px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media (min-width: 1630px) {

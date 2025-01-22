@@ -1,0 +1,149 @@
+.mainContact {
+    padding: 10px;
+}
+
+.sectionContact {
+    display: flex;
+    padding: 40px;
+    margin-right: 50px;
+}
+
+.sectionContact h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.sectionContact p {
+    color: #FFFFFFB2;
+    font-size: 13px;
+    text-align: start;
+}
+
+.div1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sectionCards {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+.sectionCards h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 32px;
+}
+
+.sectionCards div {
+    margin: 10px;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+}
+
+.textoExplicacao {
+    color: #FFFFFFB2;
+    font-size: 13px;
+    margin-left: 32px;
+    line-height: 22px;
+}
+
+.contactForm {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 70px 20px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+.contactForm h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.formGroupInputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+
+.formGroupInputs select {
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #0a192f;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    appearance: none;
+}
+
+.formGroupInputs select:focus {
+    border-color: #1c56b9;
+}
+
+.formGroup label, .formGroupInputs label {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroupInputs input,
+.formGroup textarea {
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #0a192f;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+.formGroup textarea {
+    height: 100px;
+}
+/* 
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1c56b9;
+    color: #fff;
+    cursor: pointer;
+} */
+
+.lineform {
+    display: flex;
+    justify-content: space-around;
+}

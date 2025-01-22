@@ -16,34 +16,33 @@ export default function Home() {
   const items = [
     <div className={styles.item} data-value="1">
       <Image src="/ImgHome1.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}>
-      </div>
-      <div className={styles.bar}>|</div>
-      <p className={styles.myProjects}>Meus Projetos</p>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
+      <div className={styles.bar} onClick={() => window.location.href = '/myProjects'}>|</div>
+      <a className={styles.myProjects} href="/myProjects">Meus Projetos</a>
     </div>,
     <div className="item" data-value="2">
       <Image src="/imgHome2.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}></div>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
     <div className="item" data-value="3">
       <Image src="/imgHome3.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}></div>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
     <div className="item" data-value="4">
       <Image src="/imgHome4.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}></div>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
     <div className="item" data-value="5">
       <Image src="/imgHome5.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}></div>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
     <div className="item" data-value="6">
       <Image src="/imgHome6.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLine}></div>
+      <div className={styles.carouselLine} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
     <div className="item" data-value="7">
       <Image src="/imgHome7.svg" alt="Imagem do primeiro Projeto" width={600} height={600} draggable='false'/>
-      <div className={styles.carouselLineLast}></div>
+      <div className={styles.carouselLineLast} onClick={() => window.location.href = '/myProjects'}></div>
     </div>,
   ];
 

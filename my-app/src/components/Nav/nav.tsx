@@ -6,10 +6,10 @@ export function Nav() {
         <nav className={styles.nav}>
           <Image src="/Logo.svg" alt="logo" width={250} height={250}/>
           <div className={styles.navLinks}>
-            <a href="">Home</a>
-            <a href="">Projects</a>
+            <a href="/">Home</a>
+            <a href="/myProjects">Projects</a>
             <a href="/about">About</a>
-            <a href="">Contact</a>
+            <a href="/contact">Contact</a>
           </div>
         </nav>
     )

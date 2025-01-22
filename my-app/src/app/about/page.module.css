@@ -1,7 +1,7 @@
 .containerAbout {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 .containerAbout p{
@@ -25,4 +25,49 @@
     gap: 15%;
     justify-content: center;
     margin-top: 30px;
+}
+
+.containerDirAbout {
+    margin-right: 90px;
+}
+
+.carouselLine {
+    position: relative;
+    bottom: 100px;
+    color: #fff;
+    background-color: #fff;
+    width: 10%; 
+    height: 3px; 
+}
+
+.carouselLineLast {
+    position: relative;
+    bottom: 100px;
+    left: -700px;
+    color: #fff;
+    background-color: #fff;
+    width: 2px; 
+    height: 3px; 
+}
+  
+
+.bar {
+    position: relative;
+    bottom: 100px;
+    left: -2.5px;
+    width: 10px;
+    font-size: 25px;
+    color: #fff;
+    /* background-color: #fff; */
+}
+
+.sectionCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.sectionCarousel div {
+    width: 1300px;
 }

@@ -1,0 +1,76 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 118, 255, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    gap: 20px;
+    width: 90%;  
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box; 
+}
+
+.projetoCronos {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 118, 255, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    gap: 20px;
+    width: 90%; 
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divEsq {
+    width: 16%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.divEsq h2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divEsq a {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid #fff;
+    border-radius: 18px;
+    padding: 3px 7px 3px 7px;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.divDir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    /* z-index: ; */
+    background-color: rgba(0, 0, 0, 0.01);
+
+    height: 100px;
+}
+
+
+.imgs {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 1630px) {
+    .imgs {
+        height: 430px;
+        width: 430px;
+    }
+}

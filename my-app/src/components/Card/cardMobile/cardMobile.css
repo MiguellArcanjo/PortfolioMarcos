@@ -1,0 +1,55 @@
+.containerMobile {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 118, 255, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 19px;
+    height: 150px;
+    gap: 20px;
+    max-width: 390px;
+    margin: 0 auto;
+    position: relative; 
+    transition: .3s;
+}
+
+.image {
+    flex-shrink: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.01); 
+    padding: 10px; 
+}
+
+.titleMobile {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    background: linear-gradient(100deg, #FFFFFF, #00012D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    position: relative;
+}
+
+.description {
+    color: #cfcfcf;
+    font-size: 13px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.destaque {
+    background-color: rgba(0, 0, 0, 0.01);
+    color: #0076FF;
+    font-weight: bold;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
+}

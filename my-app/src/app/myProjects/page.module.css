@@ -5,12 +5,33 @@
     padding: 50px;
 }
 
+.containerProjetosExplicacaoTablet {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
+}
+
+.containerProjetosExplicacao h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.containerProjetosExplicacaoTablet h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
 .containerProjetosExplicacao h3 {
     color: #fff;
     font-size: 30px;
 }
 
 .containerProjetosExplicacao p {
+    color: #FFFFFFB2;
+    font-size: 14px;
+}
+.containerProjetosExplicacaoTablet p {
     color: #FFFFFFB2;
     font-size: 14px;
 }

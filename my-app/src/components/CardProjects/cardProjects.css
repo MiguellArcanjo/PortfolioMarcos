@@ -11,6 +11,8 @@
     margin: 0 auto;
     position: relative;
     box-sizing: border-box; 
+    transition: .3s;
+
 }
 
 .projetoCronos {
@@ -26,6 +28,8 @@
     margin: 0 auto;
     position: relative;
     box-sizing: border-box;
+    transition: .3s;
+
 }
 
 .divEsq {
@@ -39,6 +43,7 @@
 .divEsq h2 {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.01);
+    font-size: 20px;
 }
 
 .divEsq a {
@@ -50,6 +55,7 @@
     margin-top: 10px;
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .divDir {
@@ -73,4 +79,103 @@
         height: 430px;
         width: 430px;
     }
+}
+
+
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+
+    .imgs {
+        height: 270px;
+        width: 270px;
+    }
+
+    .divEsq h2 {
+        font-size: 18px;
+    }
+
+    .divEsq a {
+        padding: 3px 7px 3px 7px;
+        width: 130px;
+    }
+
+    .divDir {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1100px) {
+
+    .imgs {
+        height: 240px;
+        width: 240px;
+    }
+
+    .divEsq h2 {
+        font-size: 18px;
+    }
+
+    .divEsq a {
+        padding: 3px 7px 3px 7px;
+        width: 130px;
+    }
+
+    .divDir {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 854px) and (max-width: 995px) {
+
+    .imgs {
+        height: 200px;
+        width: 200px;
+    }
+
+    .divEsq h2 {
+        font-size: 18px;
+    }
+
+    .divEsq a {
+        padding: 3px 7px 3px 7px;
+        width: 130px;
+    }
+
+    .divDir {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 854px) {
+
+    .imgs {
+        height: 180px;
+        width: 180px;
+    }
+
+    .divEsq h2 {
+        font-size: 18px;
+    }
+
+    .divEsq a {
+        padding: 3px 7px 3px 7px;
+        width: 130px;
+    }
+
+    .divDir {
+        margin-left: 17px;
+    }
+}
+
+
+.container:hover {
+    transform: scale(1.02);
+    transition: .3s;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
+}
+
+.projetoCronos:hover {
+    transform: scale(1.02);
+    transition: .3s;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
 }

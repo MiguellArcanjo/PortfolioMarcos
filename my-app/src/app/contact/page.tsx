@@ -3,7 +3,9 @@
 import { Nav } from "@/components/Nav/nav";
 import { Footer } from "@/components/Footer/footer";
 import { CardContact } from "@/components/CardContact/cardContact";
+import Image from "next/image";
 import styles from "./page.module.css";
+import ButtonEffect from "@/components/button/button";
 
 export default function Contact() {
 
@@ -22,7 +24,8 @@ export default function Contact() {
               Sinta-se à vontade para compartilhar suas propostas ou discutir como podemos colaborar. Você pode me contatar facilmente através do formulário abaixo ou pelas minhas redes sociais. Estou aqui para ajudar e ansioso para criar algo incrível junto com você! Vamos juntos dar vida às suas ideias!
             </p>
           </div>
-          <div>
+          <div className={styles.logoBrain}>
+            <Image src="/logoProjects.svg" alt="Logo Brain" width={250} height={250}/>
           </div>
         </section>
 
@@ -109,7 +112,7 @@ export default function Contact() {
                     <label htmlFor="message">Mensagem:</label>
                     <textarea id="message" name="message"></textarea>
                 </div>
-                {/* <button type="submit" className={styles.btn}>Enviar</button> */}
+                <ButtonEffect />
             </form>
         </section>
       </main>

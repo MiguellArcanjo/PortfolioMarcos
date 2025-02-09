@@ -1,0 +1,225 @@
+.containerBody {
+    border: 1px solid #FFFFFFB2;
+    padding: 30px;
+    margin: 80px 150px 200px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.containerBody a {
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section1 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfos {
+    padding: 50px;
+    text-align: start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfos p {
+    color: #FFFFFFB2;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.titleProject {
+    background-color: rgba(0, 0, 0, 0.01);
+    font-size: 35px;
+}
+
+.divImgs {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+    margin-left: 50px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divImgs div {
+    background-color: rgba(0, 0, 0, 0.01);
+    width: 880px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin: 0 auto;
+}
+
+.img {
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-left: 150px;
+}
+
+.divVideo {
+    position: relative;
+    right: 220px;
+    margin-top: 80px;
+}
+
+.divVideo div {
+    position: relative;
+    top: 60px;
+    right: 40px;
+}
+
+.imgRecVerde {
+    position: absolute;
+    right: 90%;
+    width: 80px;
+    height: 80px;
+    background-color: #009661;
+    left: 25px;
+}
+
+.imgRecPreto {
+    position: absolute;
+    right: 90%;
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    left: 25px;
+}
+
+.imgRecAzul{
+    position: absolute;
+    right: 90%;
+    width: 80px;
+    height: 80px;
+    background-color: #296CF3;
+    left: 25px;
+}
+
+.imgRecCinza {
+    position: absolute;
+    right: 90%;
+    width: 40px;
+    height: 40px;
+    background-color: #98ABBB;
+    left: 26px;
+    top: 25px;
+}
+
+
+.bola {
+    background-color: transparent;
+}
+
+
+
+@media (min-width: 1600px) {
+    .divVideo {
+        right: 330px;
+    }
+}
+
+
+
+
+
+
+
+
+.containerBodyMobileApp {
+    border: 1px solid #FFFFFFB2;
+    padding: 40px;
+    margin: 80px 150px 150px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 1200px;
+}
+
+.containerBodyMobileApp a {
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section1Mobile {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfosMobile {
+    padding: 50px;
+    text-align: start;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfosMobile p {
+    color: #FFFFFFB2;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.titleProjectMobile {
+    background-color: rgba(0, 0, 0, 0.01);
+    font-size: 35px;
+}
+
+.divImgsMobile {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+    margin-left: 30px;
+    margin-top: 70px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.containerImgsCronos {
+    display: flex;
+    flex-direction: row;
+}
+
+.divImgsMobile div {
+    position: relative;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.01);
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.imgMobile {
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-left: 150px;
+
+}
+
+.divVideoMobile {
+    position: relative;
+    right: 220px;
+    top: 100px;
+}
+
+.divVideoMobile div {
+    position: relative;
+    top: -40px;
+    right: -70px;
+}

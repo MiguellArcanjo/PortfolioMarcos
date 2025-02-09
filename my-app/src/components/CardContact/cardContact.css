@@ -10,6 +10,7 @@
     height: 130px;
     margin: 0 auto;
     position: relative;
+    transition: .3s;
 }
 
 .image {
@@ -42,3 +43,8 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.container:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
+}

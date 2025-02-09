@@ -16,3 +16,12 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.link {
+    transition: .2s;
+}
+
+.link:hover {
+    transition: .2s;
+    transform: scale(1.2);
+}

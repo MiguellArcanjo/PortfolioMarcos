@@ -12,6 +12,15 @@
     padding: 50px;
 }
 
+.containerProjetosExplicacaoMobile {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    /* bo */
+}
+
 .containerProjetosExplicacao h3 {
     color: #fff;
     font-size: 30px;
@@ -22,16 +31,48 @@
     font-size: 30px;
 }
 
+.containerProjetosExplicacaoMobile h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
 .containerProjetosExplicacao h3 {
     color: #fff;
     font-size: 30px;
+}
+
+.textPage {
+    color: #FFFFFF80;
+    font-weight: 600;
+}
+
+.projetoMeu {
+    text-align: end;
+}
+
+.titlePage {
+    display: flex;
+    gap: 10px;
+}
+
+.aboutProject  {
+    color: #FFFFFFB2;
+    font-size: 15px;
+    text-align: justify;
+    padding: 25px;
 }
 
 .containerProjetosExplicacao p {
     color: #FFFFFFB2;
     font-size: 14px;
 }
+
 .containerProjetosExplicacaoTablet p {
+    color: #FFFFFFB2;
+    font-size: 14px;
+}
+
+.containerProjetosExplicacaoMobile p {
     color: #FFFFFFB2;
     font-size: 14px;
 }

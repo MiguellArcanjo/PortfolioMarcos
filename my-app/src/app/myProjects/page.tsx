@@ -8,6 +8,7 @@ import { Nav } from "@/components/Nav/nav";
 import { NavMobile } from "@/components/Nav/NavMobile/navMobile";
 
 import { Footer } from "@/components/Footer/footer";
+import { FooterMobile } from "@/components/Footer/FooterMobile/footerMobile";
 
 import { CardProject } from "@/components/CardProjects/cardProjects";
 import { CardProjectMobile } from "@/components/CardProjects/CardProjectsMobile/cardProjectMobile";
@@ -210,9 +211,9 @@ const HomeMobile = () => {
         </section>
       </main>
 
-      {/* <footer>
-        <Footer />
-      </footer> */}
+      <footer>
+        <FooterMobile />
+      </footer>
     </div>
   );
 }

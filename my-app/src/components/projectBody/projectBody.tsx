@@ -50,13 +50,13 @@ export function ProjectBody(props: projectBodyProps) {
         <a href="/myProjects">
           <Image src="/Arrow.svg" alt="Seta" height={30} width={30}/>
         </a>
-        <div className="section1Mobile">
-          <div className="divInfosMobile">
+        <div className="section1MobileCronosPc">
+          <div className="divInfosMobileCronosPc">
             <h2 className="titleProjectMobile">{props.title}</h2>
             <p>{props.text}</p>
           </div>
-          <div className="divImgsMobile">
-            <div className="containerImgsCronos">
+          <div className="divImgsMobileCronosPc">
+            <div className="containerImgsCronosPc">
               <div>
                 <Image src={props.img1} alt="Imagem 1" height={400} width={200} className="imgMobile"/>
               </div>
@@ -67,7 +67,7 @@ export function ProjectBody(props: projectBodyProps) {
                 <Image src={props.img3 ? props.img3 : ''} alt="Imagem 3" height={400} width={200} className="imgMobile"/>
               </div>
             </div>
-            <div className="divVideoMobile" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className="divVideoMobileCronosPc" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div>
                 <Image src="/recIcon.svg" alt="Ícone de gravação" height={80} width={80} className={props.background} />
                 <Image src={getBallImage(props.background)} alt="Ícone da bola" height={90} width={90} className="bola" />
@@ -87,7 +87,7 @@ export function ProjectBody(props: projectBodyProps) {
   return (
     <section className="containerBody">
       <a href="/myProjects">
-        <Image src="/Arrow.svg" alt="Seta" height={30} width={30}/>
+        <Image src="/Arrow.svg" alt="Seta" height={40} width={40} className="imgDesktop"/>
       </a>
       <div className="section1">
         <div className="divInfos">
@@ -96,17 +96,17 @@ export function ProjectBody(props: projectBodyProps) {
         </div>
         <div className="divImgs">
           <div>
-            <Image src={props.img1} alt="Imagem 1" height={390} width={550} className="img"/>
+            <Image src={props.img1} alt="Imagem 1" height={390} width={520} className="img"/>
           </div>
           <div>
-            <Image src={props.img2} alt="Imagem 2" height={390} width={550} className="img"/>
+            <Image src={props.img2} alt="Imagem 2" height={390} width={520} className="img"/>
           </div>
           <div className="divVideo" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <div>
               <Image src="/recIcon.svg" alt="Ícone de gravação" height={130} width={130} className={props.background} />
               <Image src={getBallImage(props.background)} alt="Ícone da bola" height={130} width={130} className="bola" />
             </div>
-            <video ref={videoRef} loop muted>
+            <video ref={videoRef} width="100%" loop muted>
               <source src={props.videoUrl} type="video/mp4" />
               Seu navegador não suporta a tag de vídeo.
             </video>

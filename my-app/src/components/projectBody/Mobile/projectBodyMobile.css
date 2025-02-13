@@ -1,0 +1,202 @@
+.containerBodyMobile {
+    border: 1px solid #FFFFFFB2;
+    margin: 30px auto;
+    display: flex;
+    width: 90%;
+    height: 1300px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.bgImage {
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.containerBodyMobile a {
+    padding: 30px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.titleProjectMobile {
+    background-color: rgba(0, 0, 0, 0.01);
+    font-size: 25px;
+    bottom: -55%;
+    left: 50px;
+    color: #FFFFFF;
+    /* position: absolute; */
+}
+
+.divInfosMobile {
+    /* padding: 50px; */
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfosMobile p {
+    color: #FFFFFFB2;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.01);
+    padding: 40px;
+}
+
+.divImgsMobile {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin: 0 auto;
+}
+
+.divImgsMobile div {
+    background-color: rgba(0, 0, 0, 0.01);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    left: -200px;
+    position: relative;
+}
+
+.section1Mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.imgMobile1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-left: 150px;
+    bottom: -160px;
+    right: -90px;
+    z-index: 2;
+}
+
+.imgMobile1, .imgMobile2, .imgMobileCronos {
+    max-width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    margin: 0 auto;
+}
+
+.imgMobile2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-left: 210px;
+    bottom: -240px;
+    z-index: 1;
+}
+
+.divVideoMobile {
+    position: relative;
+    right: 220px;
+    top: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.divVideoMobile div {
+    position: relative;
+    top: -40px;
+    right: -20px;
+}
+
+.divVideoMobile  video {
+    margin-left: 139px;
+}
+
+.btnVideo {
+    position: relative;
+    left: 150px;
+    margin: 10px auto;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+
+
+
+.containerBodyMobileAppCronos {
+    border: 1px solid #FFFFFFB2;
+    margin: 30px auto;
+    display: flex;
+    width: 90%;
+    height: 1300px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.containerBodyMobileAppCronos a {
+    padding: 30px 40px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.section1MobileCronos {
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfosMobileCronos {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divInfosMobileCronos p {
+    color: #FFFFFFB2;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.divImgsMobileCronos {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    margin-top: 70px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.containerImgsCronos {
+    display: flex;
+    flex-direction: row;
+}
+
+.divImgsMobileCronos div {
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+
+.imgMobile1Cronos, .imgMobile2Cronos, .imgMobile3Cronos {
+    background-color: rgba(0, 0, 0, 0.01);
+}

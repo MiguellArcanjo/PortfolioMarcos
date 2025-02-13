@@ -9,9 +9,13 @@
     border-radius: 20px;
 }
 
+.imgDesktop {
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
 .containerBody a {
     width: 30px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.01);
 }
 
 .section1 {
@@ -22,12 +26,13 @@
 .divInfos {
     padding: 50px;
     text-align: start;
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 50px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.01);
+
 }
 
 .divInfos p {
@@ -42,7 +47,8 @@
 }
 
 .divImgs {
-    width: 64%;
+    width: 50%;
+
     display: flex;
     flex-direction: column;
     gap: -50px;
@@ -53,22 +59,22 @@
 
 .divImgs div {
     background-color: rgba(0, 0, 0, 0.01);
-    width: 880px;
+    width: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin: 0 auto;
 }
 
 .img {
     background-color: rgba(0, 0, 0, 0.01);
-    margin-left: 150px;
+    margin-right: 50px;
 }
 
 .divVideo {
     position: relative;
-    right: 220px;
+    left: -300px;
     margin-top: 80px;
 }
 
@@ -128,13 +134,6 @@
     }
 }
 
-
-
-
-
-
-
-
 .containerBodyMobileApp {
     border: 1px solid #FFFFFFB2;
     padding: 40px;
@@ -152,15 +151,15 @@
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.section1Mobile {
+.section1MobileCronosPc {
     display: flex;
     background-color: rgba(0, 0, 0, 0.01);
 }
 
-.divInfosMobile {
+.divInfosMobileCronosPc {
     padding: 50px;
     text-align: start;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -168,7 +167,7 @@
     background-color: rgba(0, 0, 0, 0.01);
 }
 
-.divInfosMobile p {
+.divInfosMobileCronosPc p {
     color: #FFFFFFB2;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.01);
@@ -179,8 +178,8 @@
     font-size: 35px;
 }
 
-.divImgsMobile {
-    width: 64%;
+.divImgsMobileCronosPc {
+    width: 69%;
     display: flex;
     flex-direction: column;
     gap: -50px;
@@ -190,16 +189,16 @@
     background-color: rgba(0, 0, 0, 0.01);
 }
 
-.containerImgsCronos {
+.containerImgsCronosPc {
     display: flex;
     flex-direction: row;
 }
 
-.divImgsMobile div {
+.divImgsMobileCronosPc div {
     position: relative;
     right: 20px;
     background-color: rgba(0, 0, 0, 0.01);
-    width: 280px;
+    width: 200px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -208,17 +207,16 @@
 
 .imgMobile {
     background-color: rgba(0, 0, 0, 0.01);
-    margin-left: 150px;
-
+    margin-left: 130px;
 }
 
-.divVideoMobile {
+.divVideoMobileCronosPc {
     position: relative;
     right: 220px;
     top: 100px;
 }
 
-.divVideoMobile div {
+.divVideoMobileCronosPc div {
     position: relative;
     top: -40px;
     right: -70px;

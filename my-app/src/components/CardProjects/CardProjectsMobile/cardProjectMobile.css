@@ -1,4 +1,4 @@
-.container {
+.containerMobile {
     background-color: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(0, 118, 255, 0.15);
     border-radius: 15px;
@@ -14,7 +14,7 @@
     box-sizing: border-box; 
 }
 
-.projetoCronos {
+.projetoCronosMobile {
     background-color: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(0, 118, 255, 0.15);
     border-radius: 15px;
@@ -32,7 +32,7 @@
 
 }
 
-.divEsq {
+.divEsqMobile {
     width: 50%;
     text-align: center;
     display: flex;
@@ -40,13 +40,13 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-.divEsq h2 {
+.divEsqMobile h2 {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.01);
     font-size: 20px;
 }
 
-.divEsq a {
+.divEsqMobile a {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.01);
     border: 1px solid #fff;
@@ -58,7 +58,7 @@
     text-decoration: none;
 }
 
-.divDir {
+.divDirMobile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,18 +69,18 @@
     margin-right: 20px;
 }
 
-.projetoCronos .divDir {
+.projetoCronosMobile .divDirMobile {
     margin-top: 150%;
     gap: 30px;
 }
 
 
-.imgs {
+.imgsMobile {
     background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 1630px) {
-    .imgs {
+    .imgsMobile {
         height: 430px;
         width: 430px;
     }
@@ -90,84 +90,84 @@
 
 @media (min-width: 1100px) and (max-width: 1200px) {
 
-    .imgs {
+    .imgsMobile {
         height: 270px;
         width: 270px;
     }
 
-    .divEsq h2 {
+    .divEsqMobile h2 {
         font-size: 18px;
     }
 
-    .divEsq a {
+    .divEsqMobile a {
         padding: 3px 7px 3px 7px;
         width: 130px;
     }
 
-    .divDir {
+    .divDirMobile{
         margin-left: 0;
     }
 }
 
 @media (min-width: 995px) and (max-width: 1100px) {
 
-    .imgs {
+    .imgsMobile {
         height: 240px;
         width: 240px;
     }
 
-    .divEsq h2 {
+    .divEsqMobile h2 {
         font-size: 18px;
     }
 
-    .divEsq a {
+    .divEsqMobile a {
         padding: 3px 7px 3px 7px;
         width: 130px;
     }
 
-    .divDir {
+    .divDirMobile {
         margin-left: 0;
     }
 }
 
 @media (min-width: 854px) and (max-width: 995px) {
 
-    .imgs {
+    .imgsMobile {
         height: 200px;
         width: 200px;
     }
 
-    .divEsq h2 {
+    .divEsqMobile h2 {
         font-size: 18px;
     }
 
-    .divEsq a {
+    .divEsqMobile a {
         padding: 3px 7px 3px 7px;
         width: 130px;
     }
 
-    .divDir {
+    .divDirMobile {
         margin-left: 0;
     }
 }
 
 @media (min-width: 768px) and (max-width: 854px) {
 
-    .imgs {
+    .imgsMobile {
         height: 180px;
         width: 180px;
     }
 
-    .divEsq h2 {
+    .divEsqMobile h2 {
         font-size: 18px;
     }
 
-    .divEsq a {
+    .divEsqMobile a {
         padding: 3px 7px 3px 7px;
         width: 130px;
     }
 
-    .divDir {
+    .divDirMobile {
         margin-left: 17px;
     }
 }

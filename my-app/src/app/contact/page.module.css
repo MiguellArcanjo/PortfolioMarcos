@@ -7,10 +7,21 @@
 }
 
 .sectionContact {
+    position: relative;
     display: flex;
     padding: 40px;
     margin-right: 50px;
     align-items: center;
+}
+
+.sectionContactMobile {
+    position: relative;
+    /* justify-content: center; */
+    display: flex;
+    padding: 10px;
+    /* margin-right: 50px; */
+    align-items: center;
+
 }
 
 .logoBrain {
@@ -43,14 +54,32 @@
     justify-content: space-around;
 }
 
+.sectionCardsMobile {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
 .sectionCards h3 {
     color: #fff;
     font-size: 25px;
     margin-left: 32px;
 }
 
+.sectionCardsMobile h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .sectionCards div {
     margin: 10px;
+}
+
+.sectionCardsMobile div {
+    margin-top: 20px;
 }
 
 .containerCards {
@@ -76,6 +105,12 @@
     padding: 40px 20px 70px 20px;
 }
 
+.contactFormMobile {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px 70px 20px;
+}
+
 .contactForm form {
     display: flex;
     flex-direction: column;
@@ -87,6 +122,20 @@
 .contactForm h3 {
     color: #fff;
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contactFormMobile form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+.contactFormMobile h3 {
+    color: #fff;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 

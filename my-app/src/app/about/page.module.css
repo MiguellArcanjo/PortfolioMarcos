@@ -1,3 +1,7 @@
+.divMobile {
+    overflow-y: none;
+}
+
 .containerAbout {
     display: flex;
     align-items: center;
@@ -20,11 +24,66 @@
     font-size: 27px;
 }
 
+.containerTitleAboutMobile {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    align-items: center;
+}
+
+.containerEsqMobile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.containerEsqMobile div {
+    color: #FFFFFF80;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.containerNome {
+    color: #fff;
+}
+
+.containerNome p {
+    text-align: end;
+    font-weight: bold;
+    color: #FFFFFFB2;
+}
+
+.linhaBranca {
+    color: #fff;
+    background-color: #fff;
+    width: 0.5%; 
+    height: 70px; 
+}
+
 .containerLogoIntrodução {
     display: flex;
     gap: 15%;
     justify-content: center;
     margin-top: 30px;
+}
+
+.containerFotoMobile {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.divTextoMobile {
+    color: #FFFFFFB2;
+    text-align: justify;
+    padding: 30px;
+}
+
+.containerLogosMobile {
+   display: flex;
+   justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
 }
 
 .containerDirAbout {
@@ -40,13 +99,32 @@
     height: 3px; 
 }
 
+.carouselLineMobile {
+    position: relative;
+    bottom: 89px;
+    color: #fff;
+    background-color: #fff;
+    width: 20%; 
+    height: 3px; 
+}
+
 .carouselLineLast {
     position: relative;
     bottom: 100px;
     left: -700px;
     color: #fff;
     background-color: #fff;
-    width: 2px; 
+    width: 20px; 
+    height: 3px; 
+}
+
+.carouselLineLastMobile {
+    position: relative;
+    bottom: 89px;
+    left: -20px;
+    color: #fff;
+    background-color: #fff;
+    /* width: 90px;  */
     height: 3px; 
 }
   
@@ -58,7 +136,17 @@
     width: 10px;
     font-size: 25px;
     color: #fff;
-    /* background-color: #fff; */
+}
+
+.barMobile {
+    position: relative;
+    bottom: 89px;
+    left: -2.3px;
+    width: 10px;
+    /* height: 30px; */
+    font-size: 22px;
+    color: #fff;
+    /* border: 1px solid red; */
 }
 
 .sectionCarousel {
@@ -66,8 +154,26 @@
     justify-content: center;
     align-items: center;
     width: auto;
+ 
 }
 
 .sectionCarousel div {
     width: 1300px;
+}
+
+.sectionCarouselMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sectionCarouselMobile div {
+    width: 400px;
+    margin-left: 2px;
+    /* margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }

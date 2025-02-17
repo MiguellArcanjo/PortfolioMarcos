@@ -4,7 +4,7 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    padding: 0px 25px;
+    padding: 35px;
     gap: 20px;
     width: 90%;  
     height: 240px;
@@ -12,7 +12,6 @@
     position: relative;
     box-sizing: border-box; 
     transition: .3s;
-
 }
 
 .projetoCronos {
@@ -165,6 +164,17 @@
     .divDir {
         margin-left: 17px;
     }
+}
+
+@media (min-width: 1630px) {
+    .container {
+        height: 320px;
+    }
+
+    .divEsq h2 {
+        font-size: 40px;
+    }
+    
 }
 
 

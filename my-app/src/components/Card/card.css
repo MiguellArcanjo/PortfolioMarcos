@@ -27,12 +27,11 @@
 .title {
     font-size: 24px;
     margin: 0 0 10px 0;
-    background: linear-gradient(90deg, #FFFFFF, #00012D);
+    color: #fff;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
     position: relative;
 }
+
 .description {
     color: #cfcfcf;
     font-size: 15px;

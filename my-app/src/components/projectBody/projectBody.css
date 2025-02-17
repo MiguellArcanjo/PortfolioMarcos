@@ -72,6 +72,11 @@
     margin-right: 50px;
 }
 
+.img2 {
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-right: 50px;
+}
+
 .divVideo {
     position: relative;
     left: -300px;
@@ -220,4 +225,44 @@
     position: relative;
     top: -40px;
     right: -70px;
+}
+
+@media (min-width: 1630px) {
+    .divInfos {
+        width: 32%;
+    }
+
+    .divInfos P {
+        font-size: 25px;
+    }
+
+    .titleProject {
+        font-size: 45px;
+    }
+
+    .img {
+        height: 560px;
+        width: 1050px;
+    }
+
+    .img2 {
+        height: 580px;
+        width: 1050px;
+    }
+
+    .divVideo video {
+        width: 1700px;
+    }
+
+    .divVideo {
+        position: relative;
+        left: -720px;
+        margin-top: 0px;
+    }
+    
+    .divVideo div {
+        position: relative;
+        top: 60px;
+        right: 40px;
+    }
 }

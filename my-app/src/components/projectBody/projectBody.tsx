@@ -99,7 +99,7 @@ export function ProjectBody(props: projectBodyProps) {
             <Image src={props.img1} alt="Imagem 1" height={390} width={520} className="img"/>
           </div>
           <div>
-            <Image src={props.img2} alt="Imagem 2" height={390} width={520} className="img"/>
+            <Image src={props.img2} alt="Imagem 2" height={390} width={520} className="img2"/>
           </div>
           <div className="divVideo" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <div>

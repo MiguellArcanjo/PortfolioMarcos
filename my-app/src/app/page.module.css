@@ -422,4 +422,45 @@
   .containerDir {
     width: 37%;
   }
+
+  .fotoMarcos { 
+    height: 800px;
+    width: 800px;
+  }
+
+  .bio h2  {
+    font-size: 45px;
+  }
+  
+  .bio h3 {
+    font-size: 35px;
+  }
+
+  .bio p {
+    font-size: 23px;
+  }
+
+  .bio {
+    width: 400px;
+  }
+  
+  .figmaIcon {
+    height: 150px;
+    width: 150px;
+  }
+
+  .miroIcon {
+    height: 150px;
+    width: 150px;
+  }
+
+  .info p {
+    font-size: 35px;
+  }
+  
+  .destaqueTexto {
+    font-size: 1rem;
+
+  }
+  
 }

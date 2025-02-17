@@ -76,13 +76,13 @@ const HomeDesktop = () => {
             <p>Olá, eu sou Marcos, um designer de UI/UX autodidata, atuando desde 2019. Minha jornada começou no ensino médio, onde desenvolvi protótipos de aplicativos e websites competições de robótica. Desde então, evoluí para criar interfaces para startups e pequenas empresas, sempre buscando soluções que atendam às reais necessidades dos usuários.</p>
 
             <div className={styles.containerLogoIntrodução}>
-              <Image src="/figmaLogo.svg" alt="Icone Figma" width={100} height={100}/>
-              <Image src="/miroLogo.svg" alt="Icone Miro" width={100} height={100}/>
+              <Image src="/figmaLogo.svg" alt="Icone Figma" width={100} height={100} className={styles.figmaIcon}/>
+              <Image src="/miroLogo.svg" alt="Icone Miro" width={100} height={100} className={styles.miroIcon}/>
             </div>
           </div>
 
           <div className={styles.containerImageIntrodução}>
-            <Image src="/FotoMarcosPrincipal.svg" alt="Foto Marcos" width={600} height={600}/>
+            <Image src="/FotoMarcosPrincipal.svg" alt="Foto Marcos" width={600} height={600} className={styles.fotoMarcos}/>
           </div>
 
           <div className={styles.info}>
